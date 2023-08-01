@@ -6,7 +6,7 @@
     <title>Weather Page</title>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Caveat">
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -196,9 +196,90 @@
                 <li><a href="">Weather Forecast</a></li>
             </ul>
             <div class="code_block">
+                <pre>
+                    {
+                        "request": {
+                            "type": "City",
+                            "query": "San Francisco, United States of America",
+                            "language": "en",
+                            "unit": "m"
+                        }
+                    }
+                </pre>
+            </div>
+        </div>
 
+        <div class="more_features">
+            <div class="info_box">
+                <span class="material-symbols-outlined">database</span>
+                <span>Reliable Data Sources</span>
+                <p>Powered by a strong backbone of data sources, our weather data API comes with the highest level of reliability, consistency and accuracy.</p>
+            </div>
+            <div class="info_box"> 
+                <span class="material-symbols-outlined">network_check</span>
+                <span>Lightning-fast Response</span>
+                <p>Weather data is delivered in lightweight JSON format to ensure a high level of speed and compatibility with any programming language.
+
+</p>
+            </div>
+            <div class="info_box">
+                <span class="material-symbols-outlined">monitoring</span>
+                <span>Scalable Infrastructure</span>
+                <p>Our REST API is backed by scalable cloud infrastructure built and maintained by apilayer, capable of handling billions of requests per day.</p>
+            </div>
+            <div class="info_box">
+                <span class="material-symbols-outlined">find_in_page</span>
+                <span>Flexible Location Lookup</span>
+                <p>Millions of locations can be looked up by city or region name, ZIP code, IP address, or even using latitude and longitude coordinates.</p>
+            </div>
+            <div class="info_box">
+                <span class="material-symbols-outlined">encrypted</span>
+                <span>Bank-Level Security</span>
+                <p>All data streams sent to and from the weatherstack API are secured using industry-standard 256-bit HTTPS (SSL) encryption.</p>
+            </div>
+            <div class="info_box">
+                <span class="material-symbols-outlined">map</span>
+                <span>Extensive API Documentation</span>
+                <p>An API is only as good as its documentation, which is why a series of interactive code examples in multiple languages are waiting for you.</p>
             </div>
         </div>
     </section>
+
+    <section class="partners">
+        <div class="new_container">
+            <h4>Join more than 75,000 companies worldwide using the weatherstack API</h4>
+            <h5>We are proud of delivering accurate weather data to some of the smartest brands out there.</h5>
+            <ul class="brand_list">
+                <li class="daimler"></li>
+                <li class="deloitte"></li>
+                <li class="eric"></li>
+                <li class="microsoft"></li>
+                <li class="sch"></li>
+                <li class="wb"></li>
+                <li class="ww"></li>
+                <li class="canda"></li>
+                <li class="mckinsey"></li>
+                <li class="rimowa"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <span class="cta_text">Sign up for our Free Plan to get instant access to weather data</span>
+            <span>&nbsp;</span>
+            <span class="material-symbols-outlined">arrow_right_alt</span>
+            <span>&nbsp;</span>
+            <a href="./">GET FREE API ACCESS</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+
+        </div>
+    </footer>
+
+
 </body>
 </html>
