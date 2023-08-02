@@ -481,28 +481,51 @@ section.example {
     height: 50px;
     background-color: #fff;
     border-radius: 8px;
+    text-align: center;
 
 }
 
 .example ul li {
     display: inline-block;
-    width: 31%;
     height: 100%;
     line-height: 50px;
+    padding: 0 50px;
+    
 }
 
-.radio_btn:nth-child(1) {
+ul.radio_btn li:first-child {
     float: left;
+    background-color: #f47b21;
+    border-right: 1px solid gainsboro;
+    border-radius: 8px 0 0 8px;
 }
+
+ul.radio_btn li:nth-child(2) {
+    border-right: 1px solid gainsboro;
+}
+
+ul.radio_btn li:last-child {
+    float: right;
+    border-radius: 0 8px 8px 0;
+}
+
+
 
 .example ul li a{
     text-decoration: none;
     color:#16394c;
+    font-size: 14px;
+}
+
+ul.radio_btn li:first-child a {
+    color: #fff;
 }
 
 .example ul li a:hover {
     text-decoration: underline;
 }
+
+
 
 .code_block {
     background-color: #17242b;
@@ -663,6 +686,10 @@ section.cta span {
     font-weight: 600;
 }
 
+section.cta span.material-symbols-outlined {
+    font-size: 24px;
+    font-weight: 300;
+}
 
 
 section.cta a {
@@ -673,6 +700,10 @@ section.cta a {
     text-decoration: none;
     padding: 15px;
     border-radius: 3px;
+}
+
+section.cta a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -752,7 +783,7 @@ footer .copyright {
 }
 
 footer .copyright_text {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 footer .copyright_text a {
