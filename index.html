@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Caveat">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/prism.css">
 </head>
 <body>
     <div class="index">
@@ -196,15 +197,49 @@
                 <li><a href="">Weather Forecast</a></li>
             </ul>
             <div class="code_block">
-                <pre>
-                {
-                    "request": {
-                        "type": "City",
-                        "query": "San Francisco, United States of America",
-                        "language": "en",
-                        "unit": "m"
-                    }
-                }
+                <pre class="code_format_class">
+                    <code class="language-json">
+                        {
+                            "request": {
+                                "type": "City",
+                                "query": "San Francisco, United States of America",
+                                "language": "en",
+                                "unit": "m"
+                            },
+                            "location": {
+                                "name": "San Francisco",
+                                "country": "United States of America",
+                                "region": "California",
+                                "lat": "37.775",
+                                "lon": "-122.418",
+                                "timezone_id": "America/Los_Angeles",
+                                "localtime": "2019-09-03 05:35",
+                                "localtime_epoch": 1567488900,
+                                "utc_offset": "-7.0"
+                                },
+                            "current": {
+                                "observation_time": "12:35 PM",
+                                "temparature": 16,
+                                "weather_code": 122,
+                                "weather_icons": [
+                                    "https://assets.weatherstack.com/images/symbol.png"
+                                ],
+                                "weather_descriptions": [
+                                    "Overcast"
+                                ],
+                            "wind_speed": 17,
+                            "wind_degree": 260,
+                            "wind_dir": "W",
+                            "pressure": 1016,
+                            "precip": 0,
+                            "humidity": 87,
+                            "cloudcover": 100,
+                            "feelslike": 16,
+                            "uv_index": 0,
+                            "visibility": 16
+                            }
+                        }
+                    </code>
                 </pre>
             </div>
         </div>
@@ -337,6 +372,7 @@
         </div>
     </footer>
 
-
+<!-- <script src="prism.js"></script> -->
+<script src="./scripts/prism-whitespace.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
 
 
 div.index {
-    background-image: url("./assets/mountains.svg"), linear-gradient(135deg, #1f4e69 0, #164058 100%);
+    background-image: url("../assets/mountains.svg"), linear-gradient(135deg, #1f4e69 0, #164058 100%);
     background-size: cover;
     background-position: 0 35%;
     color: #fff;
@@ -259,42 +259,42 @@ section.customers {
 }
 
 .customers .deloitte {
-    background-image: url(./assets/clinet_icons/client_deloitte.svg);
+    background-image: url(../assets/clinet_icons/client_deloitte.svg);
     background-size: 120px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .customers .microsoft {
-    background-image: url(./assets/clinet_icons/client_microsoft.svg);
+    background-image: url(../assets/clinet_icons/client_microsoft.svg);
     background-size: 120px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .customers .warnerBros {
-    background-image: url(./assets/clinet_icons/client_warnerbros.svg);
+    background-image: url(../assets/clinet_icons/client_warnerbros.svg);
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .customers .wawa {
-    background-image: url(./assets/clinet_icons/client_wawa.svg);
+    background-image: url(../assets/clinet_icons/client_wawa.svg);
     background-size: 90px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .customers .schneider {
-    background-image: url(./assets/clinet_icons/client_schneider.svg);
+    background-image: url(../assets/clinet_icons/client_schneider.svg);
     background-size: 120px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .customers .ericsson {
-    background-image: url(./assets/clinet_icons/client_ericsson_2.svg);
+    background-image: url(../assets/clinet_icons/client_ericsson_2.svg);
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center;
@@ -422,10 +422,10 @@ section.main_feature {
 } 
 
 section.example {
-    background: #184157 url(./assets/bg_waves_4.svg);
+    background: #184157 url(../assets/bg_waves_4.svg);
     background-size: cover;
     position:relative;
-    height: 1000px;
+    height: 1600px;
 }
 
 .new_container {
@@ -526,17 +526,26 @@ ul.radio_btn li:first-child a {
 }
 
 
-
-.code_block {
+.example .code_block {
     background-color: #17242b;
     color:#fff;
     max-width: 650px;
     margin: 20px auto 0;
     border-radius: 8px;
-    text-align: left;
-    font-family: monospace;
     margin-bottom: 45px;
+
 }
+
+.example .code_block pre {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    background-color: #17242b;
+    font-weight: 200;
+    font-size: 14px;
+
+}
+
 
 .more_features {
     display: flex;
@@ -600,21 +609,21 @@ section.partners {
 }
 
 li.daimler {
-    background: #263e6a url(./assets/clinet_icons/client_white_daimler.svg);
+    background: #263e6a url(../assets/clinet_icons/client_white_daimler.svg);
     background-size: 175px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 li.deloitte {
-    background: #eef2f5 url(./assets/clinet_icons/client_deloitte.svg);
+    background: #eef2f5 url(../assets/clinet_icons/client_deloitte.svg);
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 li.eric {
-    background: #01275b url(./assets/clinet_icons/client_white_ericsson_2.svg);
+    background: #01275b url(../assets/clinet_icons/client_white_ericsson_2.svg);
     background-size: 65px;
     background-repeat: no-repeat;
     background-position: center;
@@ -622,14 +631,14 @@ li.eric {
 }
 
 li.microsoft {
-    background: #eef2f5 url(./assets/clinet_icons/client_microsoft.svg);
+    background: #eef2f5 url(../assets/clinet_icons/client_microsoft.svg);
     background-size: 175px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 li.sch {
-    background: #009e4d url(./assets/clinet_icons/client_white_schneider.svg);
+    background: #009e4d url(../assets/clinet_icons/client_white_schneider.svg);
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;
@@ -637,7 +646,7 @@ li.sch {
 }
 
 li.wb {
-    background: #027ac2 url(./assets/clinet_icons/client_white_warnerbros.svg);
+    background: #027ac2 url(../assets/clinet_icons/client_white_warnerbros.svg);
     background-size: 65px;
     background-repeat: no-repeat;
     background-position: center;
@@ -645,14 +654,14 @@ li.wb {
 }
 
 li.ww {
-    background: #ee2e25 url(./assets/clinet_icons/client_white_wawa.svg);
+    background: #ee2e25 url(../assets/clinet_icons/client_white_wawa.svg);
     background-size: 110px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 li.canda {
-    background: #eef2f5 url(./assets/clinet_icons/client_canda.svg);
+    background: #eef2f5 url(../assets/clinet_icons/client_canda.svg);
     background-size: 90px;
     background-repeat: no-repeat;
     background-position: center;
@@ -660,7 +669,7 @@ li.canda {
 }
 
 li.mckinsey {
-    background: #23477f url(./assets/clinet_icons/client_mckinsey.svg);
+    background: #23477f url(../assets/clinet_icons/client_mckinsey.svg);
     background-size: 250px;
     background-repeat: no-repeat;
     background-position: center;
@@ -668,7 +677,7 @@ li.mckinsey {
 }
 
 li.rimowa {
-    background: #eef2f5 url(./assets/clinet_icons/client_rimowa.svg);
+    background: #eef2f5 url(../assets/clinet_icons/client_rimowa.svg);
     background-size: 155px;
     background-repeat: no-repeat;
     background-position: center;
