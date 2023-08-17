@@ -1,1 +1,63 @@
 @import "common.css";
+nav.header {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+nav.header div.container {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav.header div.container div.logo {
+  max-width: 20%;
+}
+nav.header div.container div.logo img {
+  max-width: 80%;
+}
+nav.header div.container ul.nav_list {
+  max-width: 600px;
+}
+nav.header div.container ul.nav_list li {
+  font-size: 13px;
+  display: inline-block;
+  min-width: 60px;
+}
+nav.header div.container ul.nav_list li a {
+  color: #fff;
+}
+nav.header div.container ul.nav_list li#status:before {
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: #3bd671;
+  border-radius: 50%;
+}
+nav.header div.container ul.nav_list li#login {
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  margin: 0;
+}
+nav.header div.container ul.nav_list li#signup {
+  padding: 8px;
+  background-color: #f47b21;
+  border-radius: 4px;
+  margin: 0;
+}
+section.hero {
+  height: 500px;
+  background-image: url("../assets/mountains.svg"), linear-gradient(135deg, #1f4e69 0, #164058 100%);
+  background-size: cover;
+  background-position: 0 35%;
+  padding-top: 100px;
+}
+section.hero h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+}
