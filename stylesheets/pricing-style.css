@@ -59,5 +59,223 @@ section.hero {
 section.hero h2 {
   color: #fff;
   font-size: 30px;
+  font-family: Promo, Helvetica, Arial, sans-serif;
   font-weight: 400;
+}
+section.pricing {
+  transform: translateY(-300px);
+  height: 800px;
+  color: #16222f;
+}
+section.pricing ul.billing-tier {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+section.pricing ul.billing-tier li {
+  width: 210px;
+}
+section.pricing ul.billing-tier li .pricing_info {
+  width: 100%;
+  height: 320px;
+  background-color: #ebeff4;
+  border-radius: 8px;
+}
+section.pricing ul.billing-tier li .pricing_info .header {
+  padding: 35px 0 15px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+}
+section.pricing ul.billing-tier li .pricing_info .header .material-symbols-outlined {
+  font-size: 30px;
+  vertical-align: middle;
+  font-weight: 300;
+}
+section.pricing ul.billing-tier li .pricing_info .description {
+  height: 80px;
+  padding: 15px 15px;
+  font-size: 12px;
+}
+section.pricing ul.billing-tier li .pricing_info .price {
+  margin-bottom: 38px;
+  font-weight: 600;
+  line-height: normal;
+}
+section.pricing ul.billing-tier li .pricing_info .price span {
+  font-size: 20px;
+  font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+  font-weight: 400;
+}
+section.pricing ul.billing-tier li .pricing_info .price span .align-top {
+  font-size: 14px !important;
+  vertical-align: top;
+}
+section.pricing ul.billing-tier li .pricing_info .price .yearly_price {
+  display: block;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+}
+section.pricing ul.billing-tier li .pricing_info a {
+  display: inline-block;
+  border-radius: 5px;
+  color: #848484;
+  background-color: #dde1e7;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  width: 80%;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+section.pricing ul.billing-tier li .features {
+  font-family: Promo, Helvetica, Arial, sans-serif;
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: left;
+  border-right: 1px solid #dde1e7;
+  height: 480px;
+}
+section.pricing ul.billing-tier li .features li {
+  padding-top: 0;
+  padding-left: 18px;
+  padding-bottom: 13px;
+}
+.features li::before {
+  font-family: "Material Symbols Outlined";
+  font-size: 24px;
+  font-weight: 200;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+li.feature_api_request::before {
+  content: "\e86f";
+}
+li.feature_currency::before {
+  content: "\f041";
+}
+li.feature_support::before {
+  content: "\e7ef";
+}
+li.feature_current::before {
+  content: "\eb5a";
+}
+li.feature_location::before {
+  content: "\f10d";
+}
+li.feature_encryption::before {
+  content: "\e593";
+}
+li.feature_astro_data::before {
+  content: "\e6c4";
+}
+li.feature_hourly_data::before {
+  content: "\e858";
+}
+li.feature_historical_data::before {
+  content: "\e923";
+}
+li.feature_forecast::before {
+  content: "\e81a";
+}
+li.feature_language::before {
+  content: "\e894";
+}
+li.feature_queries::before {
+  content: "\f20e";
+}
+li.feature_customized::before {
+  content: "\e8b8";
+}
+li.enterprise {
+  background-color: #15394c;
+  border-radius: 8px;
+  color: #fff;
+}
+li.enterprise .pricing_info {
+  background-color: #15394c !important;
+}
+section.customers {
+  background-color: #eff2f5;
+  height: 150px;
+  position: relative;
+}
+.customers > .container {
+  width: 1200px;
+  margin: auto;
+}
+.customers ul {
+  height: 100%;
+  list-style-type: none;
+}
+.customers ul li {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+.customers ul:first-child {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 50px;
+}
+.customers .deloitte {
+  background-image: url(../assets/clinet_icons/client_deloitte.svg);
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.customers .microsoft {
+  background-image: url(../assets/clinet_icons/client_microsoft.svg);
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.customers .warnerBros {
+  background-image: url(../assets/clinet_icons/client_warnerbros.svg);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.customers .wawa {
+  background-image: url(../assets/clinet_icons/client_wawa.svg);
+  background-size: 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.customers .schneider {
+  background-image: url(../assets/clinet_icons/client_schneider.svg);
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.customers .ericsson {
+  background-image: url(../assets/clinet_icons/client_ericsson_2.svg);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.customers ul::before {
+  content: "";
+  display: inline-block;
+  width: 70px;
+}
+.customers ul::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+}
+.featDetail li::before {
+  font-family: "Material Symbols Outlined";
+  font-size: 48px;
+  font-weight: 300;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.featDetail ul li {
+  display: flex;
+  text-align: left;
 }

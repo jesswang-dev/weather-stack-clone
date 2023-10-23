@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./stylesheets/pricing-style.css" />
+  </head>
+  <body>
+    <nav class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="#">
+            <img
+              src="./assets/weatherstack_logo_white.png"
+              alt="weather stack logo"
+            />
+          </a>
+        </div>
+
+        <ul class="nav_list">
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Blog</a></li>
+          <li id="status"><a href="#">&nbsp;&nbsp;Status</a></li>
+          <li id="login"><a href="#">Log In</a></li>
+          <li id="signup"><a href="#">SIGN UP FREE</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container">
+        <h2>Fair Pricing for Any Weather</h2>
+        <div class="billing">
+          <input
+            type="radio"
+            id="monthly"
+            name="billingOption"
+            value="monthly"
+            checked
+          />
+          <label for="monthly">Monthly Billing</label>
+          <input type="radio" id="yearly" name="billingOption" value="yearly" />
+          <label for="yearly">Yearly Billing</label>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing">
+      <div class="container">
+        <ul class="billing-tier">
+          <li class="free">
+            <div class="pricing_info">
+              <div class="header">
+                <span class="material-symbols-outlined"> cloud </span>
+                Free
+              </div>
+              <div class="description">No credit card required.</div>
+              <div class="price">
+                <span>$0</span>
+                <small class="frequency">per month</small>
+                <small class="yearly_price">&nbsp;</small>
+              </div>
+              <a href="">SIGN UP</a>
+            </div>
+            <div class="features">
+              <ul>
+                <li class="feature_api_request">1000 Calls / mo</li>
+                <li class="feature_support">No Support</li>
+                <li class="feature_current">Real-Time Weather</li>
+                <li class="feature_empty">&nbsp;</li>
+                <li class="feature_empty">&nbsp;</li>
+                <li class="feature_empty">&nbsp;</li>
+                <li class="feature_empty">&nbsp;</li>
+                <li class="feature_empty">&nbsp;</li>
+                <li class="feature_empty">&nbsp;</li>
+                <li class="feature_empty">&nbsp;</li>
+                <li class="feature_empty">&nbsp;</li>
+                <li class="feature_empty">&nbsp;</li>
+                <li class="feature_empty">&nbsp;</li>
+              </ul>
+            </div>
+          </li>
+          <li class="standard">
+            <div class="pricing_info">
+              <div class="header">
+                <span class="material-symbols-outlined">
+                  partly_cloudy_day
+                </span>
+                Standard
+              </div>
+              <div class="description">
+                Standard level — includes commercial use with up to 50,000
+                requests.
+              </div>
+              <div class="price">
+                <span>$9</span>
+                <span class="align-top">.99</span>
+                <small class="frequency">per month</small>
+                <small class="yearly_price">or $8.99 if billed yearly</small>
+              </div>
+              <a href="">SIGN UP</a>
+            </div>
+            <div class="features">
+              <ul>
+                <li class="feature_api_request">5000 Calls / mo</li>
+                <li class="feature_currency">+ 0.00023976 each</li>
+                <li class="feature_support">Standard Support</li>
+                <li class="feature_current">Real-Time Weather</li>
+                <li class="feature_location">Location Lookup</li>
+                <li class="feature_encryption">HTTPS Encryption</li>
+                <li class="feature_astro_data">Astronomy Data</li>
+                <li class="feature_hourly_data">Hour by Hour Data</li>
+                <li class="feature_historical_data">Full Historical Data</li>
+                <li class="feature_empty">&nbsp;</li>
+                <li class="feature_empty">&nbsp;</li>
+                <li class="feature_empty">&nbsp;</li>
+                <li class="feature_empty">&nbsp;</li>
+              </ul>
+            </div>
+          </li>
+          <li class="professional">
+            <div class="pricing_info">
+              <div class="header">
+                <span class="material-symbols-outlined"> sunny </span>
+                Professional
+              </div>
+              <div class="description">
+                Professional level — premium features with up to 300,000 monthly
+                requests.
+              </div>
+              <div class="price">
+                <span>$49</span>
+                <span class="align-top">.99</span>
+                <small class="frequency">per month</small>
+                <small class="yearly_price">or $42.99 if billed yearly</small>
+              </div>
+              <a href="">SIGN UP</a>
+            </div>
+            <div class="features">
+              <ul>
+                <li class="feature_api_request">300,000 Calls / mo</li>
+                <li class="feature_currency">+ 0.00019996 each</li>
+                <li class="feature_support">Standard Support</li>
+                <li class="feature_current">Real-Time Weather</li>
+                <li class="feature_location">Location Lookup</li>
+                <li class="feature_encryption">HTTPS Encryption</li>
+                <li class="feature_astro_data">Astronomy Data</li>
+                <li class="feature_hourly_data">Hour by Hour Data</li>
+                <li class="feature_historical_data">Full Historical Data</li>
+                <li class="feature_forecast">7-day Forecast Data</li>
+                <li class="feature_language">40 Languages</li>
+                <li class="feature_queries">Bulk Queries</li>
+                <li class="feature_empty"></li>
+              </ul>
+            </div>
+          </li>
+          <li class="business">
+            <div class="pricing_info">
+              <div class="header">
+                <span class="material-symbols-outlined"> ac_unit </span>
+                Business
+              </div>
+              <div class="description">
+                Business level — every feature we have and up to 1,000,000
+                monthly requests.
+              </div>
+              <div class="price">
+                <span>$99</span>
+                <span class="align-top">.99</span>
+                <small class="frequency">per month</small>
+                <small class="yearly_price">or $79.99 if billed yearly</small>
+              </div>
+              <a href="">SIGN UP</a>
+            </div>
+            <div class="features">
+              <ul>
+                <li class="feature_api_request">1,000,000 Calls / mo</li>
+                <li class="feature_currency">+ 0.000119988 each</li>
+                <li class="feature_support">Standard Support</li>
+                <li class="feature_current">Real-Time Weather</li>
+                <li class="feature_location">Location Lookup</li>
+                <li class="feature_encryption">HTTPS Encryption</li>
+                <li class="feature_astro_data">Astronomy Data</li>
+                <li class="feature_hourly_data">Hour by Hour Data</li>
+                <li class="feature_historical_data">Full Historical Data</li>
+                <li class="feature_forecast">14-day Forecast Data</li>
+                <li class="feature_language">40 Languages</li>
+                <li class="feature_queries">Bulk Queries</li>
+                <li class="feature_empty"></li>
+              </ul>
+            </div>
+          </li>
+          <li class="enterprise">
+            <div class="pricing_info">
+              <div class="header">
+                <span class="material-symbols-outlined"> corporate_fare </span>
+                Enterprise
+              </div>
+              <div class="description">
+                Looking for more? Contact us for a quote.
+              </div>
+              <div class="price">
+                <span>Custom Pricing </span>
+                <small>Tailored to your needs </small>
+              </div>
+              <a href="">CONTACT US</a>
+            </div>
+            <div class="features">
+              <ul>
+                <li class="feature_api_request">Volume Calls</li>
+                <li class="feature_current">Real-Time Weather</li>
+                <li class="feature_location">Location Lookup</li>
+                <li class="feature_encryption">HTTPS Encryption</li>
+                <li class="feature_astro_data">Astronomy Data</li>
+                <li class="feature_hourly_data">Hour by Hour Data</li>
+                <li class="feature_historical_data">Full Historical Data</li>
+                <li class="feature_forecast">14-day Forecast Data</li>
+                <li class="feature_language">40 Languages</li>
+                <li class="feature_queries">Bulk Queries</li>
+                <li class="feature_customized">Custom Solutions</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="customers">
+      <div class="container">
+        <ul>
+          <li>Happy Customers:</li>
+          <li class="deloitte"></li>
+          <li class="microsoft"></li>
+          <li class="warnerBros"></li>
+          <li class="wawa"></li>
+          <li class="schneider"></li>
+          <li class="ericsson"></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="detailed-feat">
+      <div class="container">
+        <div class="title">
+          <h3>Offering the Industry Standard for Weather Data</h3>
+          <div class="featured-main">
+            <img src="./assets/featured-main.png" alt="featured main picture" />
+          </div>
+        </div>
+        <div class="featDetail">
+          <ul>
+            <li class="feature_current">
+              <div class="info_brief">
+                <h6>Real-Time Weather</h6>
+                <p class="description">
+                  Get instant access to current weather data for millions of
+                  global locations, powered by rock-solid data sources and
+                  refreshed in real-time.
+                </p>
+              </div>
+              <div class="included_in">
+                <div class="label">Included in</div>
+                <div class="content">All Pricing Plans</div>
+              </div>
+            </li>
+            <li class="feature_location">
+              <div class="info_brief">
+                <h6>Location Lookup & Autocomplete</h6>
+                <p class="description">
+                  Use our flexible search & autocomplete API endpoint to
+                  pin-point any city or region of your choice by name, ZIP code,
+                  coordinates or even IP.
+                </p>
+              </div>
+              <div class="included_in">
+                <div class="label">Included in</div>
+                <div class="content">All Pricing Plans</div>
+              </div>
+            </li>
+            <li class="feature_astro_data">
+              <div class="info_brief">
+                <h6>Astronomy & Lunar Data</h6>
+                <p class="description">
+                  Our API is capable of delivering a series of valuable
+                  astronomy data points, including sun and moon times, moon
+                  phase and moon illumination levels.
+                </p>
+              </div>
+              <div class="included_in">
+                <div class="label">Included in</div>
+                <div class="content">All Pricing Plans</div>
+              </div>
+            </li>
+            <li class="feature_hourly_data">
+              <div class="info_brief">
+                <h6>Hour-by-Hour Data</h6>
+                <p class="description">
+                  Get accurate real-time and historical weather data broken down
+                  to the hour — 24 hours including temperature, wind, humidity,
+                  rain and much more.
+                </p>
+              </div>
+              <div class="included_in">
+                <div class="label">Included in</div>
+                <div class="content">All Pricing Plans</div>
+              </div>
+            </li>
+            <li class="feature_historical_data">
+              <div class="info_brief">
+                <h6>Historical Weather Data</h6>
+                <p class="description">
+                  Depending on your subscription you can access full and
+                  detailed historical weather information globally all the way
+                  back to the year 2008.
+                </p>
+              </div>
+              <div class="included_in">
+                <div class="label">Included in</div>
+                <div class="content">All Pricing Plans</div>
+              </div>
+            </li>
+            <li class="feature_forecast">
+              <div class="info_brief">
+                <h6>Weather Forecast Data</h6>
+                <p class="description">
+                  Make use of reliable weather forecast data for 7, 10 or 14
+                  days into the future, updated in real-time and around the
+                  clock.
+                </p>
+              </div>
+              <div class="included_in">
+                <div class="label">Included in</div>
+                <div class="content">All Pricing Plans</div>
+              </div>
+            </li>
+            <li class="feature_language">
+              <div class="info_brief">
+                <h6>Multi-Language API for 40 Languages</h6>
+                <p class="description">
+                  Request weather information in any of 40 available world
+                  languages, including English, Chinese, Arabic, French, Spanish
+                  and German.
+                </p>
+              </div>
+              <div class="included_in">
+                <div class="label">Included in</div>
+                <div class="content">All Pricing Plans</div>
+              </div>
+            </li>
+            <li class="feature_queries">
+              <div class="info_brief">
+                <h6>Bulk API Queries</h6>
+                <p class="description">
+                  Look up weather real-time, historical or future information
+                  for multiple global locations in a single API request using
+                  the Bulk API feature.
+                </p>
+              </div>
+              <div class="included_in">
+                <div class="label">Included in</div>
+                <div class="content">All Pricing Plans</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

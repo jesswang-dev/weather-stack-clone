@@ -4,6 +4,18 @@
   padding: 0;
 }
 
+@media screen and (max-width: 800px) {
+  section.customers {
+    overflow-y: scroll;
+  }
+
+  section.features {
+    width: 100%;
+    height: 800px;
+  }
+
+}
+
 div.index {
   background-image: url("../assets/mountains.svg"),
     linear-gradient(135deg, #1f4e69 0, #164058 100%);
@@ -228,7 +240,7 @@ section.customers {
 
 .customers > .container {
   width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .customers ul {
@@ -306,17 +318,19 @@ section.customers {
 
 section.features {
   /* border: 1px solid black; */
+  width: 100%;
   height: 250px;
   position: relative;
 }
 
 .features .container {
   background-color: #eff2f5;
-  width: 1100px;
+  max-width: 1400px;
   height: 90%;
-  text-align: center;
+  margin: auto;
+  /* text-align: center; */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   gap: 10px;
   border-radius: 5px;
@@ -324,7 +338,7 @@ section.features {
 
 .features .info_card {
   background-color: rgba(255, 255, 255, 0.3);
-  width: 225px;
+  width: 210px;
   height: 80%;
   text-align: left;
   border-radius: 5px;
@@ -335,8 +349,8 @@ section.features {
 }
 
 .info_card h4 {
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   margin: 10px 0;
 }
 
