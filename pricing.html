@@ -14,7 +14,7 @@
     <nav class="header">
       <div class="container">
         <div class="logo">
-          <a href="#">
+          <a href="./index.html">
             <img
               src="./assets/weatherstack_logo_white.png"
               alt="weather stack logo"
@@ -23,7 +23,7 @@
         </div>
 
         <ul class="nav_list">
-          <li><a href="#">Pricing</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
           <li><a href="#">Documentation</a></li>
           <li><a href="#">FAQ</a></li>
           <li><a href="#">Blog</a></li>
@@ -38,16 +38,26 @@
       <div class="container">
         <h2>Fair Pricing for Any Weather</h2>
         <div class="billing">
-          <input
-            type="radio"
-            id="monthly"
-            name="billingOption"
-            value="monthly"
-            checked
-          />
-          <label for="monthly">Monthly Billing</label>
-          <input type="radio" id="yearly" name="billingOption" value="yearly" />
-          <label for="yearly">Yearly Billing</label>
+          <label for="monthly">
+            <input
+              type="radio"
+              id="monthly"
+              name="billingOption"
+              value="monthly"
+              checked
+            />
+            Monthly Billing</label
+          >
+
+          <label for="yearly">
+            <input
+              type="radio"
+              id="yearly"
+              name="billingOption"
+              value="yearly"
+            />
+            Yearly Billing</label
+          >
         </div>
       </div>
     </section>
@@ -100,10 +110,18 @@
                 requests.
               </div>
               <div class="price">
-                <span>$9</span>
-                <span class="align-top">.99</span>
-                <small class="frequency">per month</small>
-                <small class="yearly_price">or $8.99 if billed yearly</small>
+                <div class="monthly_data">
+                  <span>$9</span>
+                  <span class="align-top">.99</span>
+                  <small class="frequency">per month</small>
+                  <small class="yearly_price">or $8.99 if billed yearly</small>
+                </div>
+                <div class="yearly_data">
+                  <span>$8</span>
+                  <span class="align-top">.99</span>
+                  <small class="frequency">per month</small>
+                  <small class="yearly_price">billed yearly</small>
+                </div>
               </div>
               <a href="">SIGN UP</a>
             </div>
@@ -125,7 +143,7 @@
               </ul>
             </div>
           </li>
-          <li class="professional">
+          <li class="professional popular">
             <div class="pricing_info">
               <div class="header">
                 <span class="material-symbols-outlined"> sunny </span>
@@ -136,10 +154,19 @@
                 requests.
               </div>
               <div class="price">
-                <span>$49</span>
-                <span class="align-top">.99</span>
-                <small class="frequency">per month</small>
-                <small class="yearly_price">or $42.99 if billed yearly</small>
+                <div class="monthly_data">
+                  <span>$49</span>
+                  <span class="align-top">.99</span>
+                  <small class="frequency">per month</small>
+                  <small class="yearly_price">or $42.99 if billed yearly</small>
+                </div>
+
+                <div class="yearly_data">
+                  <span>$42</span>
+                  <span class="align-top">.99</span>
+                  <small class="frequency">per month</small>
+                  <small class="yearly_price">billed yearly</small>
+                </div>
               </div>
               <a href="">SIGN UP</a>
             </div>
@@ -172,10 +199,19 @@
                 monthly requests.
               </div>
               <div class="price">
-                <span>$99</span>
-                <span class="align-top">.99</span>
-                <small class="frequency">per month</small>
-                <small class="yearly_price">or $79.99 if billed yearly</small>
+                <div class="monthly_data">
+                  <span>$99</span>
+                  <span class="align-top">.99</span>
+                  <small class="frequency">per month</small>
+                  <small class="yearly_price">or $79.99 if billed yearly</small>
+                </div>
+
+                <div class="yearly_data">
+                  <span>$79</span>
+                  <span class="align-top">.99</span>
+                  <small class="frequency">per month</small>
+                  <small class="yearly_price">billed yearly</small>
+                </div>
               </div>
               <a href="">SIGN UP</a>
             </div>
@@ -235,7 +271,7 @@
     <section class="customers">
       <div class="container">
         <ul>
-          <li>Happy Customers:</li>
+          <li>Trusted by the best:</li>
           <li class="deloitte"></li>
           <li class="microsoft"></li>
           <li class="warnerBros"></li>
@@ -281,7 +317,7 @@
               </div>
               <div class="included_in">
                 <div class="label">Included in</div>
-                <div class="content">All Pricing Plans</div>
+                <div class="content">Standard Plan and higher</div>
               </div>
             </li>
             <li class="feature_astro_data">
@@ -295,7 +331,7 @@
               </div>
               <div class="included_in">
                 <div class="label">Included in</div>
-                <div class="content">All Pricing Plans</div>
+                <div class="content">Standard Plan and higher</div>
               </div>
             </li>
             <li class="feature_hourly_data">
@@ -309,7 +345,7 @@
               </div>
               <div class="included_in">
                 <div class="label">Included in</div>
-                <div class="content">All Pricing Plans</div>
+                <div class="content">Standard Plan and higher</div>
               </div>
             </li>
             <li class="feature_historical_data">
@@ -323,7 +359,7 @@
               </div>
               <div class="included_in">
                 <div class="label">Included in</div>
-                <div class="content">All Pricing Plans</div>
+                <div class="content">Standard Plan and higher</div>
               </div>
             </li>
             <li class="feature_forecast">
@@ -337,7 +373,7 @@
               </div>
               <div class="included_in">
                 <div class="label">Included in</div>
-                <div class="content">All Pricing Plans</div>
+                <div class="content">Professional Plan and higher</div>
               </div>
             </li>
             <li class="feature_language">
@@ -351,7 +387,7 @@
               </div>
               <div class="included_in">
                 <div class="label">Included in</div>
-                <div class="content">All Pricing Plans</div>
+                <div class="content">Professional Plan and higher</div>
               </div>
             </li>
             <li class="feature_queries">
@@ -365,12 +401,273 @@
               </div>
               <div class="included_in">
                 <div class="label">Included in</div>
-                <div class="content">All Pricing Plans</div>
+                <div class="content">Professional Plan and higher</div>
               </div>
             </li>
           </ul>
         </div>
       </div>
     </section>
+
+    <section class="pricing_FAQ">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="left_box">
+          <div class="topic">
+            <h3>Weather Data & API</h3>
+            <ul>
+              <li>
+                <p class="question">Where is the data coming from?</p>
+                <p class="answer">
+                  The weatherstack API is licensing weather data from some of
+                  the largest weather stations and weather data providers in the
+                  world, all of which are closely monitored for consistency and
+                  data accuracy around the clock.
+                </p>
+              </li>
+              <li>
+                <p class="question">How often is weather data refreshed?</p>
+                <p class="answer">
+                  The weatherstack API is licensing weather data from some of
+                  the largest weather stations and weather data providers in the
+                  world, all of which are closely monitored for consistency and
+                  data accuracy around the clock.
+                </p>
+              </li>
+              <li>
+                <p class="question">How scalable is this service?</p>
+                <p class="answer">
+                  The weatherstack API is powered by apilayer cloud
+                  infrastructure, a system some of the world's most popular
+                  real-time API services are running on, making it highly
+                  scalable and flexible at any step of the way.
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="topic">
+            <h3>Plans, Pricing & Payment</h3>
+            <ul>
+              <li>
+                <p class="question">
+                  What is the difference between free and paid subscriptions?
+                </p>
+                <p class="answer">
+                  The weatherstack Free Plan is a way of getting familiar with
+                  the API, offering basic API functionality and a limitation of
+                  1,000 monthly API lookups. As soon as you need a higher volume
+                  or advanced API features, you can choose from one of the
+                  premium subscriptions or contact us for a custom solution.
+                </p>
+              </li>
+              <li>
+                <p class="question">Which subscription plan fits my needs?</p>
+                <p class="answer">
+                  The most decisive factor when it comes to your technical
+                  requirements is the number of monthly weather data requests
+                  you need to make per month. Other factors include HTTPS
+                  encryption, historical data, forecast data, and more. Signing
+                  up for the Free Plan is a great way of getting to know the API
+                  and implementing it without any commitments.
+                </p>
+              </li>
+              <li>
+                <p class="question">Which payment methods are supported?</p>
+                <p class="answer">
+                  Payments can be made via credit card (Visa, MasterCard,
+                  Discover, Diner's Club, American Express). Enterprise and
+                  high-volume customers may request annual bank transfer
+                  payments to be enabled. You can change your payment method at
+                  any given time in the "Payment" section of your account
+                  dashboard.
+                </p>
+              </li>
+
+              <li>
+                <p class="question">Can I also pay yearly?</p>
+                <p class="answer">
+                  Yes. If you choose annual billing, the total price of your
+                  subscription plan will be up to 20% lower than the total
+                  amount you would pay with a monthly payment frequency.
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="topic">
+            <a href="">Go to Frequently Asked Questions</a>
+          </div>
+        </div>
+        <div class="right_box">
+          <div class="topic">
+            <h3>API Access & Features</h3>
+            <ul>
+              <li>
+                <p class="question">What is an API Request?</p>
+                <p class="answer">
+                  Pricing is based on the number of monthly API requests
+                  allowed. Each time the weatherstack API service is used to
+                  look up a weather information, one API request is consumed.
+                  API errors are not counted towards your monthly quota.
+                </p>
+              </li>
+              <li>
+                <p class="question">
+                  What happens if I exceed my API Request volume?
+                </p>
+                <p class="answer">
+                  Users will be automatically notified via email and in their
+                  account dashboard as soon as at least 75%, 90%, and 100% of
+                  their monthly API quota has been reached. After reaching 100%
+                  of the allowance, overages fees will apply so we make sure you
+                  won’t experience any disruptions and your website/application
+                  will keep running smoothly. You can learn more about overages
+                  billing here.
+                </p>
+              </li>
+              <li>
+                <p class="question">What is the API's uptime?</p>
+                <p class="answer">
+                  Our API's system status is closely monitored around the clock.
+                  Every effort is made to ensure the highest possible level of
+                  availability and consistency, and we are proud to have an
+                  average uptime rate of nearly 100% (99.9%), calculated based
+                  on the past 12 months.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <span class="cta_text"
+          >Ready now? Join companies like Microsoft, Warner Brothers or Deloitte
+          today
+        </span>
+        <span>&nbsp;</span>
+        <span class="material-symbols-outlined">arrow_right_alt</span>
+        <span>&nbsp;</span>
+        <a href="./">GET STANDARD PLAN</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer_container">
+        <div class="left_container">
+          <div class="footer_logos">
+            <img
+              src="./assets/weatherstack_logo_footer.png"
+              alt="weather logo"
+              width="197"
+              height="35"
+            />
+          </div>
+          <div class="social_media">
+            <div class="github">
+              <img
+                src="./assets/social_icons/github-original.svg"
+                alt="github link"
+                width="25"
+                height="25"
+              /><a href="./" target="_blank"></a>
+            </div>
+            <div class="facebook">
+              <img
+                src="./assets/social_icons/facebook-original.svg"
+                alt="facebook link"
+                width="25"
+                height="25"
+              /><a href="./" target="_blank"></a>
+            </div>
+            <div class="instagram">
+              <img
+                src="./assets/social_icons/instagram.png"
+                alt="instagram link"
+                width="25"
+                height="25"
+              /><a href="./" target="_blank"></a>
+            </div>
+            <div class="youtube">
+              <img
+                src="./assets/social_icons/youtube.png"
+                alt="youtube link"
+                width="25"
+                height="25"
+              /><a href="./" target="_blank"></a>
+            </div>
+            <div class="twitter">
+              <img
+                src="./assets/social_icons/twitter-original.svg"
+                alt="twitter link"
+                width="25"
+                height="25"
+              /><a href="./" target="_blank"></a>
+            </div>
+            <div class="linkedin">
+              <img
+                src="./assets/social_icons/linkedin-original.svg"
+                alt="linkedin link"
+                width="25"
+                height="25"
+              /><a href="./" target="_blank"></a>
+            </div>
+          </div>
+        </div>
+
+        <ul>
+          <li class="list_title">Product</li>
+          <li><a href="./">Pricing</a></li>
+          <li><a href="./">List Your API</a></li>
+          <li><a href="./">Why choose us?</a></li>
+          <li><a href="./">Marketplace</a></li>
+        </ul>
+        <ul>
+          <li class="list_title">Docs & Help</li>
+          <li><a href="./">Documentation</a></li>
+          <li><a href="./">Blog</a></li>
+          <li><a href="./">FAQs</a></li>
+          <li><a href="./">Press</a></li>
+          <li><a href="./">API Glossary</a></li>
+        </ul>
+        <ul>
+          <li class="list_title">Account</li>
+          <li><a href="./">Log In</a></li>
+          <li><a href="./">Forgot Password</a></li>
+          <li><a href="./">FREE Signup</a></li>
+        </ul>
+        <ul>
+          <li class="list_title">Get in Touch</li>
+          <li><a href="./">Contact</a></li>
+          <li><a href="./">Get a quote</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="copyright_link">
+            <a href="">Imprint / Legal</a>
+            <span> | </span>
+            <a href="">Privacy</a>
+            <span> | </span>
+            <a href="">Terms</a>
+            <span> | </span>
+            <a href="">Cookie Preference</a>
+            <span> | </span>
+            <a href="">Sitemap</a>
+          </div>
+          <div class="copyright_text">
+            <p>
+              &#169;2022 Weatherstack API, an <a href="./">APILayer</a> product.
+              All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
